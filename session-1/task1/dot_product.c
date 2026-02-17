@@ -13,7 +13,7 @@
     for (int i=0; i<5; ++i){
       d += a[i]*b[i]; 
     }
-    printf("Dot product = %.2f\n", d);
+    printf("Dot product = %f\n", d);
 
     /*
     Code to compute the dot product
