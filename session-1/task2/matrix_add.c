@@ -16,11 +16,14 @@
     Store your answer in matrix c
     Print your final answer
     */
-    for (int i=1; i>4; ++i) {
-    c[i][i] = a[i][i] + b[i][i];
-    }
-    for (int i = 0; i < 5; ++i) {
-      printf("c[%i][%i] = %i\n", i, c[i][i]);
+    for (int i=0; i<4; ++i) {
+      for (int k=0; k<4; ++k){
+          a[i][k] = 1;
+          b[i][k] = 1;
+          c[i][k] = a[i][k] + b[i][k];
+          printf("c[%d][%d] = %f\n", i, k, c[i][k]);
+
+      }
     }
     return 0;
  }
