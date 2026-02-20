@@ -11,9 +11,11 @@ int main( void ) {
     char str2[100] = "goodbye";
     char str3[100];
     int x = strcmp(str1,str2);
+    char y = strcat(str1,str2);
 
 
     printf("%i\n",x);
+    printf("%s\n",y);
 
     // use printf to verify the following tests
 
