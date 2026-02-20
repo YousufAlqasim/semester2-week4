@@ -10,6 +10,10 @@ int main( void ) {
     char str1[100] = "hello";
     char str2[100] = "goodbye";
     char str3[100];
+    int x = strcmp(str1,str2);
+
+
+    printf("%i\n",x);
 
     // use printf to verify the following tests
 
