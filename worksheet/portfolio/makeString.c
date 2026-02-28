@@ -17,7 +17,6 @@ int main( int argc, char **argv ) {
     // add '-' between arguments
         if (i < argc - 1) {
             strcat(buffer, "-");}
-    int input = sscanf(10, "%d%d",&i,&j);
     printf("%s\n",buffer); // use only this single print statement in your submitted code
 
     return 0;
